@@ -1,0 +1,66 @@
+*{
+    box-sizing:border-box;
+}
+
+html{
+    background-color:gray;
+    color:white;
+}
+
+body{
+    margin:0px 10px;
+}
+
+h1, h2{
+    text-align:center;
+}
+
+span{
+    color:gray;
+    position:relative;
+    bottom:10px;
+}
+
+img#ProfPic{
+    background-color:maroon;
+    height:250px;
+    float: right;
+    padding:20px;
+}
+
+img#Logo{
+    /* width:400px; */
+    height:350px;
+    position:relative;
+    left:25%;
+}
+
+button.collapsible{
+    width: 100%;
+    margin-top: 18px;
+    border: 0px;
+    border-bottom: 3px solid black;
+    background-color: maroon;
+    color: white;
+    text-align:left;
+    font-weight:bold;
+    font-size:20px;
+    overflow:hidden;
+}
+
+button:hover{
+    background-color:lightgray;
+}
+
+button:active{
+    background-color:gray;
+}
+
+div.list{
+    padding: 0 18px;
+    background-color: maroon;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: 1px solid black;
+}
